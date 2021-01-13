@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(1233.png);
+    background-position: center;
+    background-size:autofullscreen;
+    background-repeat:repeat-y;
+    background-color: darkblue;
+}
+nav {
+    position: absolute;
+    left: 0;
+    right 0;
+    top: 100px;
+    background-color: darkblue;
+    display: block;
+    width: 100%;
+    padding: 8px 8px;
+    z-index: 100;
+}
+nav a {
+    font-family: helvetica;
+    color: #ffffff;
+    padding: 2px 4px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin-right: 4px;
+}
+nav a:hover, nav a.active {
+    background: white;
+    color: green
+}

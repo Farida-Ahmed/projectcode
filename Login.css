@@ -1,0 +1,16 @@
+body {
+  background-image: url(2.jpg);
+  background-color: darkblue
+}
+
+#start {
+    
+    padding: 30px;
+    width: 46%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: darkblue;
+    opacity: 0.9;
+}
+
